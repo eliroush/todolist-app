@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const taskList = document.getElementById('task-list');
         const tasks = taskList.children;
         const toggleButton = document.getElementById('toggle-tasks');
-        const maxVisibleTasks = 5;
+        const maxVisibleTasks = 3;
 
         for (let i = 0; i < tasks.length; i++) {
             if (i < maxVisibleTasks) {
